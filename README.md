@@ -6,7 +6,7 @@
 
 *minikube status*
 
-*minikube delete**
+*minikube delete*
 
 
 ### Pods
@@ -20,4 +20,15 @@
 *kubectl get pods*
 
 *kubectl apply -f pod.yaml* or kubectl create -f pod.yaml* pod is the name file yaml
+
+### ReplicaSets
+
+*kubectl get replicasets*
+
+*kubectl get replicationcontroller*
+
+*kubectl describe replicasets*
+
+*kubectl scale replicaset name-rs --replicas=4*
+
 
