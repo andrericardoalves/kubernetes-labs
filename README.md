@@ -31,4 +31,22 @@
 
 *kubectl scale replicaset name-rs --replicas=4*
 
+### Deployments
 
+*kubectl create -f deployments.yaml
+
+*kubectl get replicaset
+
+*kubectl get pods
+
+*kubectl get deployment
+
+*kubectl get all
+
+*kubectl create -f frontend.yaml --save-config --record
+
+*kubectl rollout status deployment/frontend-dp
+
+*kubectl rollout history deployment/frontend-dp
+
+*kubectl describe deployment frontend-dp
