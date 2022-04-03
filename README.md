@@ -33,20 +33,20 @@
 
 ### Deployments
 
-*kubectl create -f deployments.yaml
+*kubectl create -f deployments.yaml*
 
-*kubectl get replicaset
+*kubectl get replicaset*
 
-*kubectl get pods
+*kubectl get pods*
 
-*kubectl get deployment
+*kubectl get deployment*
 
-*kubectl get all
+*kubectl get all*
 
-*kubectl create -f frontend.yaml --save-config --record
+*kubectl create -f frontend.yaml --save-config --record*
 
-*kubectl rollout status deployment/frontend-dp
+*kubectl rollout status deployment/frontend-dp*
 
-*kubectl rollout history deployment/frontend-dp
+*kubectl rollout history deployment/frontend-dp*
 
-*kubectl describe deployment frontend-dp
+*kubectl describe deployment frontend-dp*
