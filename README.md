@@ -50,3 +50,22 @@
 *kubectl rollout history deployment/frontend-dp*
 
 *kubectl describe deployment frontend-dp*
+
+### Networks
+>It is a connection test of web pod in a mysql pod by command line
+
+*kubectl get pods*
+
+*kubectl describe pod mysql-pod*
+
+*kubectl exec -it webapp-5499f96d5d-5xnhq -- bash* (webapp-5499f96d5d-5xnhq - it is name pod)
+
+*apt search mysql-client*
+
+*apt install default-mysql-client -y*
+
+*mysql -h 172.17.0.3 -uroot -ppassword schooldb*
+
+> FQDN - Fully Qualified Domain Name
+
+*kubectl get all -n kube-system*
