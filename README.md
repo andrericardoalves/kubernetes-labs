@@ -69,3 +69,9 @@
 > FQDN - Fully Qualified Domain Name
 
 *kubectl get all -n kube-system*
+
+*apt update*
+
+*apt install dnsutils -y*
+
+*nslookup kuberntes*
