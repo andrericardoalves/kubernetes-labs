@@ -75,3 +75,25 @@
 *apt install dnsutils -y*
 
 *nslookup kuberntes*
+
+### Microservices
+
+*minikube delete*
+
+*minikube start --driver=docker*
+
+*kubectl create -f namespaces/vote.yaml --save-config --record*
+
+*kubectl create -f deployments/ --save-config --record* (create all in dir deployments)
+
+*kubectl create -f services/ --save-config --record*
+
+*kubectl get all -n vote* (in namespace vote)
+
+*minikube service result --url -n vote*
+
+*minikube service vote --url -n vote*
+
+
+
+
